@@ -22,7 +22,6 @@ namespace Scan.Service
         /// Сканирует конкретный файл переданный по ссылке и заполняет файлы
         /// </summary>
         /// <param name="filePath"></param>
-        /// <param name="scanFileModel"></param>
         /// <returns>Возвращает собранные от сканирования данные</returns>
         private IScanFile ScanFile(string filePath)
         {
@@ -105,7 +104,6 @@ namespace Scan.Service
         /// <summary>
         /// Создает строку из предоставленной модели
         /// </summary>
-        /// <param name="scanFileModel"></param>
         /// <returns>Результаты сканирования</returns>
         public StringBuilder BuildResultString()
         {
